@@ -1,0 +1,325 @@
+/* HEADER */
+
+.header{
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+.header__hijoUno{
+    width: 250px;
+}
+
+.header__hijoUno img{
+    width: 100%;
+}
+
+.header__hijoDos{
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.header__hijoDos__numero{
+    text-align: center;
+    background-color: #0b41f3; 
+    color: #fff;
+    border-radius: 15px;
+    width: 100%;
+    height: 20px;
+    padding: 5%;
+    margin-right: 15px;
+}
+
+.header__hijoDos__logo{
+    width: 65px;
+}
+
+.header__hijoDos__logo img{
+    width: 100%;
+}
+
+/* CUMPLIMIENTO */
+
+.cumplimiento{
+    text-align: center;
+    background-color: rgb(3, 148, 184);
+    color: #fff;
+    font-size: 40px;
+    padding: 2% 0;
+    font-weight: 600;
+}
+
+/*   QUE ES    */
+
+.queEs{
+    display: flex;
+    justify-content: space-between;
+    background: url(/assets/Think\ Ahead\ Portada.png) no-repeat fixed center;
+    background-size: cover;
+    padding: 5% 0;
+
+
+}
+
+.queEs__izq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.queEs__izq__titu, .queEs__der__titu{
+    color: #fff;
+    font-size: 40px;
+}
+
+.queEs__izq__contTxt{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    border-radius: 35px;
+    padding: 4%;
+    width: 30%;
+}
+
+.queEs__izq__txt{
+    color: #fff;
+    font-size: 24px;
+    
+
+}
+
+.queEs__der{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.queEs__der__contTxt{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.616);
+    line-height: 25px;
+    border-radius: 35px;
+    padding: 4%;
+    width: 30%;
+}
+
+/*   IMG CENTRO*/
+
+.imgCentro{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(223, 223, 223);
+    padding: 1% 0;
+
+}
+
+.imgCentro_Img{
+    width: 30%;
+}
+
+.imgCentro_Img img{
+    width: 100%;
+}
+
+
+/*    INFO      */
+
+.info{
+    display: flex;
+
+
+}
+
+.info__izq{
+    display: flex;
+    flex-direction: column;
+    background: url(/assets/Think\ Ahead\ Medio.jpg) no-repeat fixed center;
+    background-size: cover;
+    align-items: center;
+    color: #fff;
+    justify-content: center ;
+    font-size: 30px;
+    width: 50%;
+}
+
+.info__izq .modif{
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+
+.info__izq__cont{
+    width: 25%;
+    padding: 3%;
+    background-color: rgb(3, 148, 184);
+    text-align: center;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.info__izq__cont span:first-child{
+    font-weight: 600;
+}
+
+
+.info__der{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 3% 0;
+
+}
+
+.info__der__contTxt{
+    display: flex;
+    width: 36%;
+
+}
+
+.info__der__contTxt__img{
+    width: 50px;
+    margin-right: 35px;
+
+}
+
+.info__der__contTxt__img img{
+    width: 100%;
+}
+
+.info__der__contTxt__txt{
+    font-size: 20px;
+    color: rgb(223, 223, 223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.info__der__img{
+    width: 250px;
+    margin-top: 2%;
+}
+
+.info__der__img img{
+    width: 100%;
+}
+/*          CONTACTO        */
+
+.contacto{
+    background: url(/assets/Think\ Ahead\ Contacto.jpg) no-repeat fixed center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto__formulario__titu{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #0b41f379;
+    padding: 3%;
+    border-radius: 35px;
+    color: #fff;
+    margin: 2% 0;
+
+}
+
+.contacto__formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.contacto__formulario form input{
+    margin: 2% 0;
+    border-radius: 5px;
+    border-color: #fff;
+    padding: 3%;
+    width: 100%;
+}
+
+.contacto__formulario form input:last-child{
+    width: 30%;
+    background-color: rgb(3, 148, 184);
+    border-color:   rgb(3, 148, 184);
+    border-width: 0;
+    color: #fff;
+}
+
+.contacto__formulario__imgs{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 4% 0;
+
+}
+
+.contacto__formulario__imgs__contImg{
+    width: 50px;
+}
+
+.contacto__formulario__imgs__contImg img{
+    width: 100%;
+}
+
+
+/*  FOOTER  */
+
+footer{
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.footerCont__izq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerCont__izq a{
+    color: black;
+} 
+
+
+.footerCont__der{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerCont__der__img{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3%;
+
+}
+
+.footerCont__der__img img{
+    width: 100%;
+}
+
