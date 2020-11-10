@@ -58,7 +58,7 @@
 .queEs{
     display: flex;
     justify-content: space-between;
-    background: url(/assets/Think\ Ahead\ Portada.png) no-repeat fixed center;
+    background: url(./assets/Think\ Ahead\ Portada.png) no-repeat fixed center;
     background-size: cover;
     padding: 5% 0;
 
@@ -141,7 +141,7 @@
 .info__izq{
     display: flex;
     flex-direction: column;
-    background: url(/assets/Think\ Ahead\ Medio.jpg) no-repeat fixed center;
+    background: url(./assets/Think\ Ahead\ Medio.jpg) no-repeat fixed center;
     background-size: cover;
     align-items: center;
     color: #fff;
@@ -221,7 +221,7 @@
 /*          CONTACTO        */
 
 .contacto{
-    background: url(/assets/Think\ Ahead\ Contacto.jpg) no-repeat fixed center;
+    background: url(./assets/Think\ Ahead\ Contacto.jpg) no-repeat fixed center;
     background-size: cover;
     display: flex;
     justify-content: center;
