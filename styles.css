@@ -125,12 +125,13 @@
     display: flex;
     justify-content: center;
     background-color: rgb(223, 223, 223);
-    padding: 1% 0;
+    padding: 15px 25px;
 
 }
 
 .imgCentro_Img{
-    width: 30%;
+    width: 380px;
+
 }
 
 .imgCentro_Img img{
