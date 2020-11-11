@@ -332,6 +332,9 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 11px;
+    justify-content: center;
+
 }
 
 .footerCont__izq a{
@@ -345,7 +348,7 @@ footer{
 }
 
 .footerCont__der__img{
-    width: 15%;
+    width: 158px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -358,12 +361,12 @@ footer{
 }
 
 /* RESPONSIVE*/
-@media screen and (max-width: 1140px){
+/* @media screen and (max-width: 1140px){
 
 .footerCont__der__img {
     width: 25%;
 }
-}
+} */
 @media screen and (max-width: 1050px){
     .info__izq .modif {
         width: 360px;
@@ -380,6 +383,20 @@ footer{
 
 }
 
+
+@media screen and (max-width: 810px){
+
+footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footerCont__der__img {
+    margin: 3% 3%;
+}
+}
 @media screen and (max-width: 750px){
     .queEs, .info{
         flex-direction: column;
@@ -405,12 +422,7 @@ footer{
     .info__izq__cont{
         font-size: 20px;
     }
-    .footerCont__der {
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: center;
-
-}
+    
 }
 
 
@@ -421,6 +433,15 @@ footer{
     }
 }
 
+
+
+@media screen and (max-width: 476px){
+    .footerCont__der{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 @media screen and (max-width: 450px){
     .header{
         flex-direction: column;
