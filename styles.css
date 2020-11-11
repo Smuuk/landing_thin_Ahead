@@ -181,6 +181,17 @@
 
 }
 
+.info__izq__opacidad{
+    background-color: rgba(0, 0, 0, 0.548);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    width: 100%;
+    height: 100%;
+
+}
+
 .info__izq__cont span:first-child{
     font-weight: 600;
 }
@@ -374,10 +385,19 @@ footer{
         flex-direction: column;
     }
 
-    .queEs__izq, .queEs__der, .info__izq, .info__der{
+    .queEs__izq, .queEs__der, .info__der{
         width: 100%;
         padding: 4% 0;
     }
+    .info__izq__opacidad{
+        padding: 4% 0;
+
+    }
+
+    .info__izq{
+        width: 100%;
+    }
+
     .info__izq .modif {
         width: 80%;
         font-size: 20px;
@@ -390,6 +410,7 @@ footer{
         align-items: flex-end;
         justify-content: center;
 
+}
 }
 
 
@@ -424,12 +445,7 @@ footer{
   }
 
 
-  @media screen and (max-width: 450px){
-    .queEs__izq__titu, .queEs__der__titu {
-        font-size: 22px;
-    }
-
-}
+  
 
 @media screen and (max-width: 388px){
     .info__der__contTxt{
@@ -452,5 +468,12 @@ footer{
     .contacto__formulario__imgs__contImg {
         width: 40px;
     }
+}
+
+@media screen and (max-width: 310px){
+    .queEs__izq__titu, .queEs__der__titu {
+        font-size: 22px;
+    }
+
 }
 
