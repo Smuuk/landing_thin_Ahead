@@ -38,6 +38,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .header__hijoDos__numero__img img{
@@ -105,14 +107,24 @@
     flex-direction: column;
     line-height: 25px;
     border-radius: 35px;
-    padding: 4%;
-    width: 377px;
+    /* padding: 4%; */
+    /* width: 377px; */
+    width: 500px;
+    font-size: 24px;
+    color: rgb(114, 114, 114);
+    background-color: #fff;
+    height: 273px;
+
+
+
 }
 
 .queEs__izq__txt{
-    color: #fff;
-    font-size: 24px;
+    /* color: #fff; */
+    /* font-size: 24px; */
     font-family: 'Open Sans', sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 
     
 
@@ -130,11 +142,13 @@
     flex-direction: column;
     line-height: 25px;
     border-radius: 35px;
-    padding: 2%;
+    /* padding: 2%; */
     width: 500px;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
-    color: #fff;
+    color: rgb(114, 114, 114);
+    background-color: #fff;
+
 
 
 }
@@ -328,7 +342,7 @@
 
 .contacto__formulario__imgs{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 60%;
     margin: 4% 0;
 
@@ -376,7 +390,7 @@ footer{
 }
 
 .footerCont__der__img{
-    width: 158px;
+    width: 175px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -386,6 +400,13 @@ footer{
 
 .footerCont__der__img img{
     width: 100%;
+}
+
+.modiImg1, .modiImg3{
+    width: 185px;
+}
+.footerCont__der a{
+    display: flex;
 }
 
 /* RESPONSIVE*/
@@ -460,7 +481,7 @@ footer{
 }
 
 
-@media screen and (max-width: 810px){
+@media screen and (max-width: 901px){
 
 footer {
     flex-direction: column;
@@ -499,7 +520,7 @@ footer {
 }
 
 }
-@media screen and (max-width: 476px){
+@media screen and (max-width: 540px){
     .footerCont__der{
         flex-direction: column;
         justify-content: center;
@@ -516,6 +537,8 @@ footer {
         display: flex !important;
         width: 170px;
         margin: 10px 0;
+        font-size: 14px;
+
     }
     .divParaMoviles {
         text-decoration: none;
