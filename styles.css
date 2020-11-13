@@ -91,7 +91,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 50%;
 }
 
@@ -107,14 +106,12 @@
     flex-direction: column;
     line-height: 25px;
     border-radius: 35px;
-    /* padding: 4%; */
-    /* width: 377px; */
     width: 500px;
     font-size: 24px;
-    color: rgb(114, 114, 114);
-    background-color: #fff;
-    height: 273px;
-
+    /* color: rgb(114, 114, 114);
+    background-color: #fff; */
+    color: #fff;
+    text-align: justify;
 
 
 }
@@ -135,17 +132,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 .queEs__der__contTxt{
     display: flex;
     flex-direction: column;
     line-height: 25px;
     border-radius: 35px;
-    /* padding: 2%; */
-    width: 500px;
+    padding: 5px 15px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(114, 114, 114);
     background-color: #fff;
 
@@ -410,28 +405,8 @@ footer{
 }
 
 /* RESPONSIVE*/
-/* @media screen and (max-width: 1140px){
+ @media screen and (max-width: 1100px){
 
-.footerCont__der__img {
-    width: 25%;
-}
-} */
-@media screen and (max-width: 1050px){
-    .info__izq .modif {
-        width: 360px;
-        font-size: 25px;
-    }
-}
-
-@media screen and (max-width: 950px){
-
-/* .queEs__izq__titu, .queEs__der__titu{
-    font-size: 30px;
-} */
-
-/* .queEs__izq__txt, .queEs__der__contTxt{
-    font-size: 10px !important;
-} */
 .queEs{
     flex-direction: column;
 }
@@ -453,6 +428,49 @@ footer{
 .queEs__izq__txt, .queEs__der__contTxt{
     font-size: 18px;
 }
+
+
+} 
+@media screen and (max-width: 1050px){
+    .info__izq .modif {
+        width: 360px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 950px){
+
+/* .queEs__izq__titu, .queEs__der__titu{
+    font-size: 30px;
+} */
+
+/* .queEs__izq__txt, .queEs__der__contTxt{
+    font-size: 10px !important;
+} */
+
+
+
+/* .queEs{
+    flex-direction: column;
+}
+.queEs__izq, .queEs__der, .info__der{
+    width: 100%;
+    padding: 4% 0;
+    padding-bottom: 25px;
+
+}
+.queEs__izq__contTxt{
+    width: 500px;
+}
+.queEs__izq__titu, .queEs__der__titu {
+    font-size: 25px;
+}
+
+
+
+.queEs__izq__txt, .queEs__der__contTxt{
+    font-size: 18px;
+} */
 
 
 .info{
@@ -554,6 +572,15 @@ footer {
     .queEs__izq__contTxt, .queEs__der__contTxt{
         width: 250px;
     }
+    .queEs__izq__txt, .queEs__der__contTxt {
+        font-size: 15px;
+    }
+
+    .queEs__der__contTxt{
+        padding: 5px 3px;
+
+    }
+    
     
   }
 
